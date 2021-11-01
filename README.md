@@ -46,12 +46,10 @@ En invite de commande (**cmd**), depuis un dossier clôné par l'application [Gi
     
 ### Particularités
 
-Le script détecte la présence d'un **@** dans l'URL.
-
-S'il n'y en a pas, une erreur est affichée et aucun changement n'est effectué.
+Le script détecte la présence d'un **@** dans l'URL pour déterminer si il peut effectuer le nettoyage. S'il n'y en a pas, une erreur est affichée et aucun changement n'est effectué.
 
 
-**Mise en garde**
+#### Mise en garde
 
 Un **@** pourrait se trouver dans l'URL d'un dépôt clôné via une clé SSH, plutôt que via HTTPS.
 
