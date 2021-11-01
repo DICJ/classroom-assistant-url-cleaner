@@ -1,11 +1,7 @@
 # Classroom Assistant URL Cleaner
-**Patrice Boudreault**
+**Patrice Boudreault**, Technicien en travaux pratiques, Département Informatique, Cégep de Jonquière
 
-Technicien en travaux pratiques
-
-Dept. Informatique, Cegep de Jonquiere
-
-2021-11-01
+**2021-11-01**
 
 
 ## Problématique
