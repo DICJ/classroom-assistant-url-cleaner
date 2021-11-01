@@ -23,6 +23,11 @@ Ce script automatise le nettoyage du *remote-url* du dépôt, pour enlever le je
 
 Il remplace les tâches suivantes:
 
+  * Affiche la liste des *remote*: `git remote -v`
+  * Copier l'URL du dépôt
+  * Coller l'URL du dépôt
+  * Modifier l'URL du dépôt en supprimant tout ce qui se trouve entre https:// et github.com
+  * Définir le nouvel URL comme *remote*: `git remote set-url origin [URL_Modifié]`
 
 
 ## Déploiement
