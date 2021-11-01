@@ -39,11 +39,23 @@ La commande **giturl** deviendra ainsi accessible depuis tous les dossiers sur v
 
 ## Utilisation
 
-En invite de commande (**cmd**), depuis un dossier clôné par l'application **GitHub Classroom Assistant**, invoquer la commande suivante:
+En invite de commande (**cmd**), depuis un dossier clôné par l'application [GitHub Classroom Assistant](https://classroom.github.com/assistant), invoquer la commande suivante:
 
     
     giturl
     
+### Particularités
+
+Le script détecte la présence d'un **@** dans l'URL.
+
+S'il n'y en a pas, une erreur est affichée et aucun changement n'est effectué.
+
+
+**Mise en garde**
+
+Un **@** pourrait se trouver dans l'URL d'un dépôt clôné via une clé SSH, plutôt que via HTTPS.
+
+Ce script ne tient pas compte de ce scénario, car le logiciel [GitHub Classroom Assistant](https://classroom.github.com/assistant) utilise toujours HTTPS pour clôner les dépôts.
 
 ### Capture d'écran
 ![Capture d'écran](capture.png)
